@@ -34,7 +34,7 @@ export default function Home() {
               href="#"
               className="bg-slate-600 text-slate-50 rounded-md p-[2px]"
             >
-              Sani Alhassan
+              Keezy🚀✨💫
             </a>
             .
           </span>
