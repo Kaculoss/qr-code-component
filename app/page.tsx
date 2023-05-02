@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex justify-center items-center min-h-screen w-screen">
       <div className="bg-slate-50 rounded-3xl flex items-center shadow-2xl flex-col justify-center gap-6 p-6 w-[370px] md:w-[410px] h-fit">
         <Image
-          alt="qr-code"
+          alt="QR code to frontendmentor.io"
           src="/images/image-qr-code.png"
           height={500}
           width={500}
