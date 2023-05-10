@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Frontend Mentor | QR code component",
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-300">{children}</body>
+      <body className="bg-slate-300">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
